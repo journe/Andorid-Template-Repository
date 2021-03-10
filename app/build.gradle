@@ -7,13 +7,11 @@ android {
     compileSdkVersion 30
 
     defaultConfig {
-        applicationId "com.example.androiddevchallenge"
+        applicationId "tech.jour.android"
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
-
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
     signingConfigs {
@@ -74,8 +72,4 @@ dependencies {
     implementation "androidx.compose.ui:ui-tooling:$compose_version"
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.3.0'
 
-    testImplementation 'junit:junit:4.13.2'
-
-    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
-    androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_version"
 }
